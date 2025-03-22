@@ -1,9 +1,10 @@
 import Image from "next/image"
 import sjmLogo from "../../../public/image/sjmLogo.webp"
+import backgroungImageHeader from"../../../public/image/background-image-header.jpg"
 
 export default function Header() {
     return (
-      <header>
+      <header id="Inicio">
         <div className="flex flex-row items-center justify-around py-[15px] px-[20px] text-white bg-(--color-background-blue)">
           <div>
             <Image src={sjmLogo} alt="Imagem que contém a logo da empresa SJM INTERNET" width='150' height='73.5' />
@@ -18,8 +19,14 @@ export default function Header() {
             </ul>
           </div>
         </div>
-        <div className="bg-(--color-background-grey) w-full h-[300px]">
-            <p className="text-white">ideias</p>
+        <div className="flex flex-row items-center justify-between w-full h-full --font-display-rubik]">
+          <div className="px-[30px]">
+            <h1 className="text-(--color-text-blue) text-[50px] font-bold ">Conecte-se ao Futuro</h1>
+            <p className="text-(--color-text-grey)">Fibra ótica de alta velocidade para sua casa e empresa</p>
+          </div>
+          <div className=""> 
+            <Image src={backgroungImageHeader} alt="Imagem que representa uma familia conectar a internet através do celular. imagem retirada do" width='900' height='800' className="rounded-bl-[50px]"/>
+          </div>
         </div>
       </header>
     ) 
