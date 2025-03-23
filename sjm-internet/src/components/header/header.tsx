@@ -1,6 +1,7 @@
 import Image from "next/image"
 import sjmLogo from "../../../public/image/sjmLogo.webp"
-import backgroungImageHeader from"../../../public/image/background-image-header.jpg"
+import backgroungImageHeader from"../../../public/image/background-image-header.png"
+import Button from "../button/button"
 
 export default function Header() {
     return (
@@ -23,6 +24,7 @@ export default function Header() {
           <div className="px-[30px]">
             <h1 className="text-(--color-text-blue) text-[50px] font-bold ">Conecte-se ao Futuro</h1>
             <p className="text-(--color-text-grey)">Fibra ótica de alta velocidade para sua casa e empresa</p>
+            <Button titleButton="Confira Nossos Planos" />
           </div>
           <div className=""> 
             <Image src={backgroungImageHeader} alt="Imagem que representa uma familia conectar a internet através do celular. imagem retirada do" width='900' height='800' className="rounded-bl-[50px]"/>
