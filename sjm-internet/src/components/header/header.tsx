@@ -1,6 +1,6 @@
 import Image from "next/image"
 import sjmLogo from "../../../public/image/sjmLogo.webp"
-import backgroungImageHeader from"../../../public/image/background-image-header.png"
+import Banner from "../../../public/image/banner.jpg"
 import Button from "../button/button"
 
 export default function Header() {
@@ -20,16 +20,14 @@ export default function Header() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-between w-full h-full --font-display-rubik]">
-          <div className="px-[30px]">
-            <h1 className="text-(--color-text-blue) text-[50px] font-bold ">Conecte-se ao Futuro</h1>
-            <p className="text-(--color-text-grey)">Fibra ótica de alta velocidade para sua casa e empresa</p>
+        <div className="flex flex-row items-center justify-between max-w-[100%] h-full font-(--font-display-rubik)">
+          <div className="p-[30px]">
+            <h1 className="text-(--color-text-blue) text-[70px] font-bold ">Conecte-se ao Futuro</h1>
+            <p className="text-(--color-text-grey) text-[20px] mb-2">Fibra ótica de alta velocidade para sua casa e empresa</p>
             <Button titleButton="Confira Nossos Planos" />
           </div>
-          <div className=""> 
-            <Image src={backgroungImageHeader} alt="Imagem que representa uma familia conectar a internet através do celular. imagem retirada do" width='900' height='800' className="rounded-bl-[50px]"/>
+            <Image src={Banner} alt="imagem que contém os planos de internet da empresa" className="2xl:w-[1000px] 2xl:h-[500px] rounded-bl-3xl " />
           </div>
-        </div>
       </header>
     ) 
   }

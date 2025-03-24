@@ -3,6 +3,6 @@ type props = {
 }
 export default function Button({titleButton}: props) {
     return(
-        <button className="">{titleButton}</button>
+        <button className="bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl">{titleButton}</button>
     )
 };
