@@ -11,11 +11,11 @@ import bannerParamount from "../../../../public/image/planos/banner-paramount.pn
 export default function Streaming() {
     return (
         <section className="items-center justify-center bg-white"> 
-            <div className="container flex mt-10">
-                <h2 className="text-(--color-text-blue) font-bold text-[50px]">Fibra + Watch Streaming</h2>
+            <div className="flex flex-col mt-2 items-center text-center">
+                <h2 className="text-(--color-text-darkblue) font-bold text-[40px] max-sm:text-[25px]">Fibra + Watch Streaming</h2>
                 <div className="w-[100%] h-[100%] bg-white justify-center">
-                    <Image alt="banner max" src={bannerMax} className="w-[100%] h-[100%]" />
-                    <div className="pb-10 flex flex-row max-sm:flex-col justify-around">
+                    <Image alt="banner max" src={bannerMax} className="w-[2000px] h-[200px] max-sm:h-[100px]" />
+                    <div className="pb-5 flex flex-row max-sm:flex-col justify-end max-sm:justify-center">
                         <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
                             <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageMax450} className="w-[100%] h-[100%] rounded-xl" />
                         </div>
@@ -24,20 +24,6 @@ export default function Streaming() {
                         </div>
                         <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
                             <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageMax800} className="w-[100%] h-[100%] rounded-xl" />
-                        </div>
-                    </div>
-                </div>
-                <div className="w-[100%] h-[100%] bg-white justify-center">
-                    <Image alt="banner paramount" src={bannerParamount} className="w-[100%] h-[100%]" />
-                    <div className="pb-10 flex flex-row max-sm:flex-col justify-around">
-                        <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
-                            <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageParamount450} className="w-[100%] h-[100%] rounded-xl" />
-                        </div>
-                        <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
-                            <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageParamount650} className="w-[100%] h-[100%] rounded-xl" />
-                        </div>
-                        <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
-                            <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageParamount800} className="w-[100%] h-[100%] rounded-xl" />
                         </div>
                     </div>
                 </div>
