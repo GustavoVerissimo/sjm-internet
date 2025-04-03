@@ -3,15 +3,17 @@
 
 @theme {
     /* background colors */
-    --color-background-blue: #002776;
+    --color-background-blue: #00A7FF;
+    --color-background-darkblue: #002776;
     --color-background-grey: #f6f6f9;
     --color-button-blue: #00A7FF;
-    --color-paramount: #0065ff;
+    --color-button-darkblue: #002776;
     /* text colors */
-    --color-text-blue: #002776;
+    --color-text-darkblue: #002776;
+    --color-text-blue: #00a7ff;
     --color-text-grey: #444444;
     /* fonts */
-    --font-display-rubik: "Rubik", sans-serif;  
+    --font-display-rubik: "Rubik", sans-serif;
 }
   
    
