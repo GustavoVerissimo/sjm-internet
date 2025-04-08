@@ -1,30 +1,33 @@
 import Image from "next/image"
-import imageMax450 from "../../../../public/image/planos/max-450.jpg"
-import imageMax650 from "../../../../public/image/planos/max-650.jpg"
-import imageMax800 from "../../../../public/image/planos/max-800.jpg"
-import imageParamount450 from "../../../../public/image/planos/paramount-450.jpg"
-import imageParamount650 from "../../../../public/image/planos/paramount-650.jpg"
-import imageParamount800 from "../../../../public/image/planos/paramount-800.jpg"
 import bannerMax from "../../../../public/image/planos/banner-max.png"
-import bannerParamount from "../../../../public/image/planos/banner-paramount.png"
+import { CarouselSectionPrice, CarouselSpacing } from "@/components/carousel"
+import paramountImagePrice from "../../../../public/image/paramount-section-price.webp"
+import watchImagePrice from "../../../../public/image/watch-section-price.webp"
 
 export default function Streaming() {
     return (
         <section className="items-center justify-center bg-white"> 
             <div className="flex flex-col mt-2 items-center text-center">
-                <h2 className="text-(--color-text-darkblue) font-bold text-[40px] max-sm:text-[25px]">Fibra + Watch Streaming</h2>
-                <div className="w-[100%] h-[100%] bg-white justify-center">
+                <div className="bg-black">
                     <Image alt="banner max" src={bannerMax} className="w-[2000px] h-[200px] max-sm:h-[100px]" />
-                    <div className="pb-5 flex flex-row max-sm:flex-col justify-end max-sm:justify-center">
-                        <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
-                            <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageMax450} className="w-[100%] h-[100%] rounded-xl" />
+                </div>
+                <h2 className="text-(--color-text-darkblue) font-bold text-[40px] max-sm:text-[25px]">Fibra + Streaming</h2>
+                <div className="w-[100%] h-[100%] bg-white justify-around">
+                    <div className="flex flex-row max-sm:flex-col-reverse items-center justify-around">
+                        <div className="max-w-[500px] max-h-[300px]">
+                            <h3 className="text-[30px]">Fibra + Watch Streaming</h3>
+                            <p className="text-[20px]">Fibra Ótica de alta velocidade para assistir a filmes e series no seu Streaming Favorito</p>
+                            <div className="flex flex-row items-center justify-around">
+                                <div className="bg-(--color-background-grey) rounded-xl mr-1">
+                                    <Image src={watchImagePrice} alt="logo watch" className="p-1"/>
+                                </div>
+                                <div className="bg-(--color-background-grey) rounded-xl">
+                                    <Image src={paramountImagePrice} alt="logo paramount" className="p-1"/>
+                                </div>
+                            </div>
+                            <button className="w-64 max-sm:w-40 bg-(--color-button-blue) hover:bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">Assine Já</button>
                         </div>
-                        <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
-                            <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageMax650} className="w-[100%] h-[100%] rounded-xl" />
-                        </div>
-                        <div className="mt-[20px] sm:mr-5 bg-white w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
-                            <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={imageMax800} className="w-[100%] h-[100%] rounded-xl" />
-                        </div>
+                        <CarouselSectionPrice />   
                     </div>
                 </div>
             </div> 
