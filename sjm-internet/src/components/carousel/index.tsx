@@ -19,10 +19,10 @@ import {
 export function CarouselSectionPrice(){
     const data = [
         {id: 1 , image: imageMax450},
-        {id: 2  , image: imageMax650},
-        {id: 3 , image: imageMax800},
-        {id: 4 , image: imageParamount450},
-        {id: 5 , image: imageParamount650},
+        {id: 2  , image: imageParamount450},
+        {id: 3 , image: imageMax650},
+        {id: 4 , image: imageParamount650},
+        {id: 5 , image: imageMax800},
         {id:6 , image: imageParamount800},
     ]
   return (
@@ -30,9 +30,9 @@ export function CarouselSectionPrice(){
       <CarouselContent className="-ml-1">
         {
             data.map((data) => (
-                <CarouselItem key={data.id} className="pl-1 md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={data.id} className="pl-1 lg:basis-1/2 xl:basis-1/3">
                     <div className="flex aspect-square items-center justify-center">
-                      <div className="items-center  mt-[20px] sm:mr-5 w-[250px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
+                      <div className="items-center w-[450px] h-[300px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl">
                         <Image alt="Imagem que descreve o plano fibra 450 megas + streaming max" src={data.image} className="w-[100%] h-[100%] rounded-xl" />
                       </div>
                     </div>  

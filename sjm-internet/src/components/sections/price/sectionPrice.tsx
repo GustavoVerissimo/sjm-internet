@@ -6,7 +6,7 @@ export default function Price(){
 
     return(
         <section className="flex flex-col p-3 items-center justify-center bg-(--color-background-grey) 2xl:h-[1000px]">
-            <div className=" justify-items-center">
+            <div className="justify-items-center">
                 <div className="flex flex-row max-sm:flex-col max-lg:flex-wrap max-xl:flex-wrap justify-center">
                     <div className="mt-[20px] mr-1 p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[200px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl">
                         <div className=" w-full justify-items-center items-center border-b">
