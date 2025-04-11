@@ -7,7 +7,6 @@ import imageParamount650 from "../../../public/image/planos/paramount-650.jpg"
 import imageParamount800 from "../../../public/image/planos/paramount-800.jpg"
 import Image from "next/image"
 
-import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
   CarouselContent,

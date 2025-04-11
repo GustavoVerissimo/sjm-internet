@@ -1,15 +1,12 @@
 import Image from "next/image"
 import bannerMax from "../../../../public/image/planos/banner-max.png"
-import { CarouselSectionPrice, CarouselSpacing } from "@/components/carousel"
-import paramountImagePrice from "../../../../public/image/paramount-section-price.webp"
-import watchImagePrice from "../../../../public/image/watch-section-price.webp"
-import maxImagePrice from "../../../../public/image/max-section-price.png"
+import { CarouselSectionPrice} from "@/components/carousel"
 
 export default function Streaming() {
     return (
         <>
-        <div className="bg-black">
-            <Image alt="banner max" src={bannerMax} className="w-[2000px] h-[200px] max-sm:h-[100px]" />
+        <div className="bg-black justify-center items-center">
+            <Image alt="banner max" src={bannerMax} className="w-[1000px] max-sm:w-[300px] h-[200px] max-sm:h-[90px]" />
         </div>
         <section className="items-center justify-center bg-white"> 
             <div className="flex flex-col mt-2 items-center text-center">
@@ -21,7 +18,7 @@ export default function Streaming() {
                             <p className="text-[20px] max-sm:text-[18px] text-left max-sm:pl-2 text-(--color-text-grey) ">Muito mais do que uma plataforma de streaming, a Watch é o maior hub de conteúdo do Brasil, Tudo isso por meio de um app inovador e parceria com os principais estúdios e emissoras do Brasil e do mundo, como Paramount+, Max, Globo e muito mais.</p>
                             <button className="mt-3 w-64 bg-(--color-button-blue) hover:bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">Assine Já</button>
                         </div>
-                        <CarouselSectionPrice />   
+                            <CarouselSectionPrice />
                     </div>
                 </div>
             </div> 
