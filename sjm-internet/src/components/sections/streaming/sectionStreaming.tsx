@@ -1,28 +1,37 @@
 import Image from "next/image"
-import bannerMax from "../../../../public/image/planos/banner-max.png"
-import { CarouselSectionPrice} from "@/components/carousel"
+import watchTecnologia from "../../../../public/image/watch-tecnologia-2.webp"
+import logoMaxBranca from "../../../../public/image/logo-max-branca.webp"
+import logoParamountBranca from "../../../../public/image/logo-paramount-branca.webp"
+import logoTelecineBranca from "../../../../public/image/Logo-telecine-branca.png"
+import LogoWatch from "../../../../public/image/logo-watch-branca.svg"
+
 
 export default function Streaming() {
     return (
-        <>
-        <div className="bg-black justify-center items-center">
-            <Image alt="banner max" src={bannerMax} className="w-[1000px] max-sm:w-[300px] h-[200px] max-sm:h-[90px]" />
-        </div>
-        <section className="items-center justify-center bg-white"> 
+        <section className="items-center justify-center"> 
             <div className="flex flex-col mt-2 items-center text-center">
-                <div className="w-[100%] h-[100%] bg-white justify-around">
+                <div className="w-[100%] h-[100%] bg-(--color-background-darkblue) justify-around">
                     <div className="flex flex-row max-sm:flex-col-reverse m-3 items-center justify-around">
-                        <div className="max-w-[500px] max-h-[500px] justify-items-start">
-                            <h2 className="mt-1 text-(--color-text-darkblue) font-bold text-center text-[40px] max-sm:text-[30px]">Fibra + Watch Streaming</h2>
-                            <p className="text-[20px] max-sm:text-[18px] text-left max-sm:pl-2 text-(--color-text-grey)">Fibra Ótica de alta velocidade para assistir a filmes e series no seu Streaming Favorito</p><br />
-                            <p className="text-[20px] max-sm:text-[18px] text-left max-sm:pl-2 text-(--color-text-grey) ">Muito mais do que uma plataforma de streaming, a Watch é o maior hub de conteúdo do Brasil, Tudo isso por meio de um app inovador e parceria com os principais estúdios e emissoras do Brasil e do mundo, como Paramount+, Max, Globo e muito mais.</p>
-                            <button className="mt-3 w-64 bg-(--color-button-blue) hover:bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">Assine Já</button>
+                        <div className="max-w-[500px] max-h-[500px]">
+                            <h2 className="mt-1 text-white font-bold text-center text-[40px] max-sm:text-[30px]">Fibra + Watch Streaming</h2>
+                            <p className="text-[20px] max-sm:text-[18px] text-left text-white">Fibra Ótica de alta velocidade para assistir a filmes e series no seu Streaming Favorito</p>
+                            <div className="flex flex-row my-5 justify-center">
+                                <Image src={LogoWatch} alt="logoWatch" className="w-[80px] h-[25px] md:w-[130px] md:h-[45px]"/>
+                                <Image src={logoParamountBranca} alt="logoParamount" className="w-[80px] h-[30px] md:w-[130px] md:h-[60px]"/>
+                                <Image src={logoMaxBranca} alt="logoMax" className="w-[80px] h-[30px] md:w-[130px] md:h-[60px]"/>
+                                <Image src={logoTelecineBranca} alt="logoTelecine" className="w-[80px] h-[30px] md:w-[130px] md:h-[60px]"/>
+                            </div>
+                            <p className="text-[20px] max-sm:text-[18px] text-left text-white"> Disponiveis nos planos:</p>
+                            <p className="text-[20px] font-black max-sm:text-[18px] text-left max-sm:pl-2 text-white">450, 650 e 800 MEGA</p>
+                            <div className="flex flex-col items-center justify-center">
+                                <button className="mt-3 w-64 bg-white hover:bg-(--color-button-blue) sm:hover:w-68 text-(--color-text-blue) px-3 py-2 rounded-3xl">Ligue</button>
+                                <button className="mt-3 w-64 bg-(--color-button-gren) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">WhatsApp</button>
+                            </div>                            
                         </div>
-                            <CarouselSectionPrice />
+                            <Image src={watchTecnologia} alt="imagens da watch tecnologia" className="w-[650px] h-[350px] max-sm:w-[400px] max-sm:h-[300px] max-sm:mt-5 rounded-xl"/>
                     </div>
                 </div>
             </div> 
         </section>
-        </>
     )
 }
