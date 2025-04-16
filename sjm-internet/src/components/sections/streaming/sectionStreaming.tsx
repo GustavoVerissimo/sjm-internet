@@ -8,9 +8,9 @@ import LogoWatch from "../../../../public/image/logo-watch-branca.svg"
 
 export default function Streaming() {
     return (
-        <section className="items-center justify-center bg-(--color-background-darkblue)"> 
+        <section className="items-center justify-center bg-black"> 
             <div className="flex flex-col  items-center text-center">
-                <div className="w-[100%] h-[100%] my-10 bg-(--color-background-darkblue) justify-around">
+                <div className="w-[100%] h-[100%] my-10 bg-black justify-around">
                     <div className="flex flex-row max-sm:flex-col-reverse m-3 items-center justify-around">
                         <div className="max-w-[500px] max-h-[500px]">
                             <h2 className="my-5 text-white font-bold text-center text-[40px] max-sm:text-[30px]">Fibra + Watch</h2>
