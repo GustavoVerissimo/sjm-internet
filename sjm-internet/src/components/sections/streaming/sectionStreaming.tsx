@@ -13,7 +13,7 @@ export default function Streaming() {
                 <div className="w-[100%] h-[100%] my-10 bg-black justify-around">
                     <div className="flex flex-row max-sm:flex-col-reverse m-3 items-center justify-around">
                         <div className="max-w-[500px] max-h-[500px]">
-                            <h2 className="my-5 text-white font-bold text-center text-[40px] max-sm:text-[30px]">Fibra + Watch</h2>
+                            <h2 className="my-5 font-black text-white text-center text-[40px] max-sm:text-[30px]">Fibra + Watch</h2>
                             <p className="text-[20px] max-sm:text-[18px] max-sm:ml-2 text-left text-white">Fibra Ótica de alta velocidade para assistir a filmes e series no seu Streaming Favorito</p>
                             <div className="flex flex-row my-5 justify-center">
                                 <Image src={LogoWatch} alt="logoWatch" className="w-[80px] h-[25px] md:w-[130px] md:h-[45px]"/>
@@ -24,11 +24,11 @@ export default function Streaming() {
                             <p className="text-[20px] max-sm:text-[18px] max-sm:ml-2 text-left text-white"> Disponiveis nos planos:</p>
                             <p className="text-[20px] font-black max-sm:text-[18px] text-left max-sm:pl-2 text-white">450, 650 e 800 MEGA</p>
                             <div className="flex flex-col max-sm:items-center max-sm:justify-center">
-                                <button className="mt-3 w-64 bg-white hover:bg-(--color-button-blue) sm:hover:w-68 text-(--color-text-blue) px-3 py-2 rounded-3xl">Ligue</button>
+                                <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-blue) px-3 py-2 rounded-3xl">Ligue</button>
                                 <button className="mt-3 w-64 bg-(--color-button-gren) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">WhatsApp</button>
                             </div>                            
                         </div>
-                            <Image src={watchTecnologia} alt="imagens da watch tecnologia" className="w-[650px] h-[350px] max-sm:w-[400px] max-sm:h-[300px] max-sm:mt-5 rounded-xl"/>
+                            <Image src={watchTecnologia} alt="imagens da watch tecnologia" className="w-[650px] h-[350px] max-sm:w-[400px] max-sm:h-[280px] max-sm:mt-5 rounded-xl"/>
                     </div>
                 </div>
             </div> 
