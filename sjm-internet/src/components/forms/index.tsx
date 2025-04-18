@@ -7,13 +7,19 @@ import { z } from "zod"
 import { Card, CardContent } from "@/components/ui/card"
 
 
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "../ui/form"
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form"
 import { Input } from "../ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import { toast } from "sonner"
+
+
+
 
 type TformSchema = {
     nome: string
     email: string
     numero: string
+    mensagem: string
   }
 
 export default function FormSectionQuestion(){
@@ -21,7 +27,8 @@ export default function FormSectionQuestion(){
         defaultValues: {
           nome: "",
           email: "",
-          numero: ""
+          numero: "",
+          mensagem: ""
         }
       })
 
@@ -41,8 +48,9 @@ export default function FormSectionQuestion(){
                                 <FormItem>
                                     <FormLabel>Seu Nome</FormLabel>
                                     <FormControl>
-                                        <Input placeholder="Ex: Gustavo" {...field} />
+                                        <Input placeholder="Seu nome" {...field} />
                                     </FormControl>
+                                    <FormMessage />
                                 </FormItem>
                             )}
                         />
@@ -53,8 +61,9 @@ export default function FormSectionQuestion(){
                                 <FormItem>
                                     <FormLabel>Seu Email</FormLabel>
                                     <FormControl>
-                                        <Input placeholder="Ex: Gustavo@gmail.com" {...field} type="email" />
+                                        <Input placeholder="Seu email" {...field} type="email" />
                                     </FormControl>
+                                    <FormMessage />
                                 </FormItem>
                             )}
                         />
@@ -65,12 +74,41 @@ export default function FormSectionQuestion(){
                                 <FormItem>
                                     <FormLabel>Seu Número</FormLabel>
                                     <FormControl>
-                                        <Input placeholder="Ex: (21) 123456789" {...field}/>
+                                        <Input placeholder="Seu número" {...field}/>
                                     </FormControl>
+                                    <FormMessage />
                                 </FormItem>
                             )}
                         />
-                        <button type="submit" className="mt-2 w-64 max-sm:w-40 bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">Enviar Mensagem</button>
+                        <FormField 
+                            control={form.control} 
+                            name="mensagem"
+                            render={({ field }) => (
+                                <FormItem>
+                                    <FormLabel>Seu Mensagem</FormLabel>
+                                    <FormControl>
+                                        <Textarea placeholder="Sua mensagem" {...field} />
+                                    </FormControl>
+                                    <FormMessage />
+                                </FormItem>
+                            )}
+                        />
+                        <button  
+                            className="mt-2 w-64 max-sm:w-40 bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl"
+                            onClick={() =>
+                                {const date = new Date()
+                                
+                                toast("Mensagem Enviada com Sucesso!", {
+                                  description: `${date.toLocaleDateString()}`,
+                                  action: {
+                                    label: "X",
+                                    onClick: () => console.log("enviado!"),
+                                  }, 
+                                })
+                            }
+                              }
+                            >Enviar Mensagem
+                        </button>
                     </form>    
                 </Form>
             </CardContent>
