@@ -3,7 +3,7 @@ import sjmLogo from "../../../public/image/sjmLogo.webp"
 
 export default function Footer() {
     return(
-        <footer className="flex flex-col bg-black justify-center items-center ">
+        <footer className="flex flex-col bg-(--color-background-darkblue) justify-center items-center ">
             <div className="w-full h-[full] py-[40px] px-[80px] flex flex-row max-sm:flex-col items-center justify-around">
                 <div className="max-sm:mb-[25px] lg:mr-[100px]">
                     <Image src={sjmLogo} alt="Imagem que contém a logo da empresa SJM INTERNET" width='150' height='73.5' />

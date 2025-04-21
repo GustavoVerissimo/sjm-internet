@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form"
 import { z } from "zod"
 
 import { Card, CardContent } from "@/components/ui/card"
+import { IoMdSend } from "react-icons/io";
 
 
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form"
@@ -94,7 +95,7 @@ export default function FormSectionQuestion(){
                             )}
                         />
                         <button  
-                            className="mt-2 w-64 max-sm:w-40 bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl"
+                            className="mt-2 w-64 flex flex-row justify-center items-center max-sm:w-50 bg-(--color-button-darkblue) text-white px-3 py-2 rounded-3xl"
                             onClick={() =>
                                 {const date = new Date()
                                 
@@ -107,7 +108,7 @@ export default function FormSectionQuestion(){
                                 })
                             }
                               }
-                            >Enviar Mensagem
+                            > <IoMdSend className="mr-2" />Enviar Mensagem
                         </button>
                     </form>    
                 </Form>

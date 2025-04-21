@@ -6,10 +6,11 @@ import {
   } from "@/components/ui/accordion"
   import { Card, CardContent } from "@/components/ui/card"
   import FormSectionQuestion from "@/components/forms"
+  import SectionApp from "@/components/sections/sectionApp"
 
 export default function Questions() {
     return(
-        <section className="flex flex-col my-[15px]">
+        <section className="flex flex-col py-[15px] bg-(--color-background-grey)">
             <div className="flex flex-row max-sm:flex-col items-center justify-around my-[40px]">
                 <div className="max-sm:mb-[25px] flex flex-col w-[500px] max-sm:w-[320px]">
                     <h2 className="text-(--color-text-darkblue) max-sm:text-center text-left text-[40px] max-sm:text-[30px] font-black">Tire suas duvidas</h2>
@@ -43,6 +44,7 @@ export default function Questions() {
                     </Card>    
                 </div>
             </div>
+            <SectionApp />
             <div className="flex flex-row max-sm:flex-col-reverse items-center justify-around my-[40px]">
                 <div className="w-[650px] max-sm:w-[320px] items-center justify-center">
                     <FormSectionQuestion />
