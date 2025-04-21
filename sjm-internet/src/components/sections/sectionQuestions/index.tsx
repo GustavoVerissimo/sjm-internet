@@ -7,7 +7,6 @@ import {
   import { Card, CardContent } from "@/components/ui/card"
   import FormSectionQuestion from "@/components/forms"
 
-
 export default function Questions() {
     return(
         <section className="flex flex-col my-[15px]">
