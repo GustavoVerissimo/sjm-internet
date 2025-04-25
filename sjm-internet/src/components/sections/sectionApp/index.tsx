@@ -16,7 +16,7 @@ export default function SectionApp() {
                             <Image src={GooglePlay} alt="logo playstore" className="w-[180px] h-[40px]" />
                         </a>
                         <a href="https://apps.apple.com/br/app/meuappprovedor/id1637448837">
-                            <Image src={AppleStore} alt="logo applestore" className="w-[180px] h-[40px]" />
+                            <Image src={AppleStore} alt="logo applestore" className="w-[180px] max-sm:h-[45px] h-[40px]" />
                         </a>
                     </div>
                 </div>

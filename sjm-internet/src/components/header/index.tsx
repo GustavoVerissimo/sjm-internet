@@ -10,11 +10,11 @@ export default function Header() {
           </div>
           <div className="max-sm:mt-5">
             <ul className="flex flex-row">
-              <li className="pr-4"><a href="/">Início</a></li>
-              <li className="pr-4"><a href="/">Sobre</a></li>
-              <li className="pr-4"><a href="/disponibilidade">Disponibilidade</a></li>
-              <li className="pr-4"><a href="/">Promoções</a></li>
-              <li className=""><a href="/">Contato</a></li>
+              <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/">Início</a></li>
+              <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/">Sobre</a></li>
+              <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/disponibilidade">Disponibilidade</a></li>
+              <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/">Promoções</a></li>
+              <li className="lg:pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="#contato">Contato</a></li>
             </ul>
           </div>
         </div>
