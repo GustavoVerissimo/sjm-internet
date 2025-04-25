@@ -26,7 +26,7 @@ export default function Streaming() {
                             <p className="text-[20px] max-sm:text-[18px] max-sm:ml-2 text-left text-white"> Disponiveis nos planos:</p>
                             <p className="text-[20px] font-black max-sm:text-[18px] text-left max-sm:pl-2 text-white">450, 650 e 800 MEGA</p>
                             <div className="flex flex-col max-sm:items-center max-sm:justify-center">
-                                <button className="mt-3 w-64 bg-white sm:hover:w-68 text-black px-3 py-2 rounded-3xl">Saiba Mais</button>
+                                <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-darkblue) px-3 py-2 rounded-3xl">Saiba Mais</button>
                                 <button className="mt-3 w-64 flex flex-row justify-center items-center bg-(--color-button-gren) sm:hover:w-68 text-white px-3 py-2 rounded-3xl"><BsWhatsapp  className="mr-1"/> WhatsApp</button>
                             </div>                            
                         </div>

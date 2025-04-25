@@ -1,0 +1,17 @@
+import Header from "@/components/header"
+import Footer from "@/components/footer"
+import FormMaps from "@/components/forms/formDisponibilidade"
+
+export default function Dispobilidade(){
+    return(
+        <>
+            <Header />
+            <div className="h-full bg-(--color-background-grey) justify-items-center">
+                <div className="py-[40px] w-[500px] max-sm:w-[400px]">
+                    <FormMaps />
+                </div>
+            </div>
+            <Footer />
+        </>
+    )
+}
