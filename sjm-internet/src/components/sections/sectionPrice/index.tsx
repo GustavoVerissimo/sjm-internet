@@ -15,7 +15,7 @@ export default function Price(){
                             <p className="text-[50px] max-sm:text-[35px] text-(--color-text-darkblue) font-black">MEGA</p>
                             <p className="mb-2 max-sm:text-[10px]">Mais Velocidade, Menos Preço</p>
                         </div>
-                        <div className="max-sm:mt-3 2xl:mb-2 ">
+                        <div className="max-sm:mt-3 lg:mb-2 ">
                             <p className="flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>75</strong></p>,90/mês</p>
                             <p className="text-[10px]">Pagando até o vencimento</p>
                             <p className="flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>65</strong></p>,90/mês</p>
