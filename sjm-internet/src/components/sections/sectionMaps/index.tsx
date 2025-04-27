@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ImagemMapa from "../../../../public/image/imagem-mapa.png"
+import ImagemMapa from "../../../../public/image/imagem-section-mapa.jpg"
 
 export default function SectionMaps() {
     return (
@@ -11,7 +11,7 @@ export default function SectionMaps() {
                     <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-darkblue) px-3 py-2 rounded-3xl"><a href="/disponibilidade">Consultar</a></button>
                 </div>
                 <div className="md:ml-2 max-sm:mt-2 pl-2">
-                    <Image src={ImagemMapa} alt="imagem com a localização da empresa" className="rounded-full w-[250px] h-[250px] max-sm:w-[200px] max-sm:h-[200px] "/>
+                    <Image src={ImagemMapa} alt="imagem com a localização da empresa" className="rounded-md w-[280px] h-[230px] max-sm:w-[200px] max-sm:h-[150px] "/>
                 </div>
             </div>
         </section>
