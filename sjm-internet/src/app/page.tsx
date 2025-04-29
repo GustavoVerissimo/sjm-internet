@@ -5,7 +5,7 @@ import SectionQuestions from "@/components/sections/sectionQuestions"
 import Footer from "@/components/footer"
 import SectionMaps from "@/components/sections/sectionMaps"
 import HeaderBanner from "@/components/header/headerBanner"
-import SectionQuality from "@/components/sections/sectionQuality"
+import SectionEnterprise from "@/components/sections/sectionEnterprise"
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <HeaderBanner />
       <main>
         <SectionPrice />
-        <SectionQuality />
+        <SectionEnterprise />
         <SectionStreaming />
         <SectionMaps />
         <SectionQuestions />

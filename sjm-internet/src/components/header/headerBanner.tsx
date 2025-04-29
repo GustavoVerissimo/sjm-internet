@@ -2,7 +2,7 @@ import Image from "next/image"
 import Banner from "../../../public/image/banner.jpg"
 export default function HeaderBanner() {
     return(
-        <div className="lg:hidden flex flex-row max-sm:flex-col-reverse items-center justify-between font-(--font-display-rubik)">
+        <div className="flex flex-row max-sm:flex-col-reverse items-center justify-between font-(--font-display-rubik)">
           <div className="p-[30px]">
             <h1 className="font-black text-(--color-text-darkblue) 3xl:text-[70px] xl:text-[55px] lg:text-[50px] md:text-[40px] max-sm:text-[28px]">Conecte-se ao Futuro</h1>
             <p className="mb-2 text-(--color-text-grey) max-sm:text-[15px] text-[20px] ">Fibra ótica de alta velocidade para sua casa e empresa</p>
