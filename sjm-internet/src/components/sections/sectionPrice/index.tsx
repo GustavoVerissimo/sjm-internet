@@ -3,10 +3,11 @@ import watchImagePrice from "../../../../public/image/watch-section-price.webp"
 import Image from "next/image"
 
 
+
 export default function Price(){
 
     return(
-        <section className="flex flex-col px-3 items-center justify-center bg-(--color-background-grey)">
+        <section className="flex flex-col px-3 max-sm:pb-10 items-center justify-center bg-(--color-background-grey)">
             <div className="justify-items-center  mb-[20px]">
                 <div className="flex flex-row max-sm:flex-col max-lg:flex-wrap max-xl:flex-wrap justify-center">
                     <div className="mt-[20px] md:mr-[30px] p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl">
