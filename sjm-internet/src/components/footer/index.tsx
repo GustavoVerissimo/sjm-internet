@@ -8,6 +8,7 @@ import { CiMail } from "react-icons/ci"
 import { MdHomeWork } from "react-icons/md"
 import { MdOutlineWork } from "react-icons/md"
 import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { HiPhone } from "react-icons/hi";
 
 export default function Footer() {
     return(
@@ -28,7 +29,7 @@ export default function Footer() {
                     <h2 className="text-white font-black text-[30px] text-center">Contatos</h2>
                     <div className="max-sm:mt-5">
                         <ul className="text-white font-bold">
-                            <li className="flex flex-row items-center"><BsWhatsapp className="mr-2"/><a href="https://wa.me/552131803223?text=Olá estou vindo do seu site, gostaria de algumas informações sobre os planos.">(21) 3180-3223</a></li>
+                            <li className="flex flex-row items-center"><HiPhone className="mr-2"/><a href="https://wa.me/552131803223?text=Olá estou vindo do seu site, gostaria de algumas informações sobre os planos.">(21) 3180-3223</a></li>
                             <li className="flex flex-row items-center"><BsWhatsapp className="mr-2" /><a href="https://wa.me/5521999267929?text=Olá estou vindo do seu site, gostaria de algumas informações sobre os planos.">(21) 99926-7929</a></li>
                             <li className="flex flex-row items-center"><CiMail className="h-[18px] mr-2" /> <a href="mailto:sjminternet@yahoo.com.br">sjminternet@yahoo.com.br</a></li>
                         </ul>

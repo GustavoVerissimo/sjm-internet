@@ -4,14 +4,14 @@ import ImagemMapa from "../../../../public/image/imagem-section-mapa.jpg"
 export default function SectionMaps() {
     return (
         <section className="justify-items-center">
-            <div className="flex flex-col-reverse md:flex-row max-sm: my-[20px] mx-[60px] bg-(--color-background-darkblue) w-[800px] h-[300px] max-sm:w-[340px] max-sm:h-full justify-center items-center rounded-3xl shadow-2xl">
-                <div className="flex flex-col md:items-start items-center w-[450px] max-sm:w-[300px] my-[20px] md:pr-2 text-white md:border-r-4 md:border-white">
+            <div className="flex flex-col-reverse md:flex-row max-sm: my-[20px] mx-[60px] bg-(--color-background-darkblue) w-[800px] h-[300px] max-sm:w-[340px] max-sm:h-full lg:justify-between max-sm:justify-center items-center rounded-3xl shadow-2xl">
+                <div className="flex flex-col md:items-start items-center w-[450px] max-sm:w-[300px] my-[20px] md:pr-2 md:ml-5 text-white">
                     <h2 className="mb-2 text-[32px] max-sm:text-[30px] font-black">Consulte Disponibilidade</h2>
-                    <p className="text-[20px] max-sm:text-[18px] text-left">Quer saber se atuamos na sua região? clique no botão abaixo e consulte a disponibilidade do seu endereço</p>
+                    <p className="mb-5 text-[20px] max-sm:text-[18px] text-left">Quer saber se atuamos na sua região? clique no botão abaixo e consulte a disponibilidade do seu endereço</p>
                     <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-darkblue) px-3 py-2 rounded-3xl"><a href="/disponibilidade">Consultar</a></button>
                 </div>
-                <div className="md:ml-2 max-sm:mt-2 pl-2">
-                    <Image src={ImagemMapa} alt="imagem com a localização da empresa" className="rounded-md w-[280px] h-[230px] max-sm:w-[200px] max-sm:h-[150px] "/>
+                <div className="md:ml-2 max-sm:mt-2 pl-2 h-full">
+                    <Image src={ImagemMapa} alt="imagem com a localização da empresa" className="rounded-3xl max-sm:rounded-bl-3xl w-[370px] h-full max-sm:w-[200px] max-sm:h-[150px] "/>
                 </div>
             </div>
         </section>
