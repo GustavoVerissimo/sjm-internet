@@ -6,11 +6,13 @@ import logoTelecineBranca from "../../../../public/image/Logo-telecine-branca.pn
 import LogoWatch from "../../../../public/image/logo-watch-branca.svg"
 import { BsWhatsapp } from "react-icons/bs"
 import { FaPhoneAlt } from "react-icons/fa";
+import WatchStreaming from "./watchStreaming"
 
 
 export default function Streaming() {
     return (
         <section className="items-center justify-center bg-(--color-background-darkblue)"> 
+            <WatchStreaming />
             <div className="flex flex-col  items-center text-center">
                 <div className="w-[100%] h-[100%] my-10 bg-(--color-background-darkblue) justify-around">
                     <div className="flex flex-row max-sm:flex-col-reverse m-3 items-center justify-around">
