@@ -13,7 +13,7 @@ export default function SectionEnterprise() {
                 <div className="flex flex-row lg:justify-between max-sm:flex-col-reverse bg-white w-[900px] max-sm:w-[340px] h-[350px] max-sm:h-[570px] rounded-3xl shadow-2xl">
                     <div className="flex flex-col py-5 px-5 justify-items-center ">
                         <div className="lg:w-[350px] mb-2">
-                            <h2 className="mb-2 text-center text-[32px] max-sm:text-[30px] font-black text-(--color-text-darkblue)">Plano Empresarial</h2>
+                            <h2 className="mb-2 text-center text-[32px] max-sm:text-[30px] font-black text-(--color-text-darkblue)">Wifi Empresarial</h2>
                             <p className="text-(--color-background-darkblue) text-[20px] max-sm:text-[18px] text-left">Fibra ótica de alta velocidade para impulsionar o seu negócio</p>
                         </div>
                         <div className="">
