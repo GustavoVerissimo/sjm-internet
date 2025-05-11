@@ -1,11 +1,11 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import { CarouselSectionPrice } from "@/components/carousel"
-
+import { CarouselSectionPrice }from "@/components/carousel"
+import TabsStreaming from "@/components/table"
 import ImagemWatch from "../../../public/image/watch-tecnologia-2.webp"
 import Image from "next/image"
 
-export default function Dispobilidade(){
+export default function Streamings(){
     return(
         <>
             <Header />
@@ -20,6 +20,7 @@ export default function Dispobilidade(){
                             <p className="text-[20px] font-black max-sm:text-[17px] text-left max-sm:pl-2 text-white">450, 650 e 800 MEGA</p>
                         </div>
                     </section>
+                    <TabsStreaming />
                     <CarouselSectionPrice />
                 </main>
             <Footer />
