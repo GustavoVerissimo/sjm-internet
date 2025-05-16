@@ -1,11 +1,12 @@
 import WatchBanner from "../../../../public/image/watch-banner-png.png"
 import Image from "next/image"
 import { BsWhatsapp } from "react-icons/bs"
+import TabsStreaming from "@/components/table"
 
 
 export default function Streaming() {
     return(
-        <section className="flex flex-row items-center justify-center bg-(--color-background-darkblue)">
+        <section className="flex flex-col items-center justify-center bg-(--color-background-darkblue)">
             <div className="flex flex-col md:flex-row items-center">
                 <div className="w-[500px] max-sm:w-[350px] h-full">
                     <Image src={WatchBanner} alt="imagem sobre a logo do watch" />
@@ -17,7 +18,7 @@ export default function Streaming() {
                     <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-darkblue) px-3 py-2 rounded-3xl">Saiba Mais</button>
                     <button className="mt-3 w-64 flex flex-row justify-center items-center bg-(--color-button-gren) sm:hover:w-68 text-white px-3 py-2 rounded-3xl"><BsWhatsapp  className="mr-1"/> WhatsApp</button>
                 </div>
-            </div>    
+            </div> 
         </section>
     )
 }

@@ -1,4 +1,4 @@
-import paramountImagePrice from "../../../../public/image/paramount-section-price.webp"
+import paramountImagePrice from "../../../../public/image/paramount-logo.png"
 import watchImagePrice from "../../../../public/image/watch-section-price.webp"
 import Image from "next/image"
 
@@ -31,10 +31,10 @@ export default function Price(){
                         </div>
                         <div className="mt-2 justify-items-center">
                             <div className="flex flex-row items-center justify-around">
-                                <div className="mr-1">
+                                <div className="mr-1 max-w-[100px]">
                                     <Image src={watchImagePrice} alt="logo watch" className="p-1"/>
                                 </div>
-                                <div className="">
+                                <div className="max-w-[100px]">
                                     <Image src={paramountImagePrice} alt="logo paramount" className="p-1"/>
                                 </div>
                             </div>
@@ -50,10 +50,10 @@ export default function Price(){
                         </div>
                         <div className="mt-2 justify-items-center">
                             <div className="flex flex-row items-center justify-around">
-                                <div className="mr-1">
+                                <div className="mr-1 max-w-[100px]">
                                     <Image src={watchImagePrice} alt="logo watch" className="p-1"/>
                                 </div>
-                                <div className="">
+                                <div className=" max-w-[100px]">
                                     <Image src={paramountImagePrice} alt="logo paramount" className="p-1"/>
                                 </div>
                             </div>
@@ -69,10 +69,10 @@ export default function Price(){
                         </div>
                         <div className="mt-2 justify-items-center">
                             <div className="flex flex-row items-center justify-around">
-                                <div className="mr-1">
+                                <div className="mr-1 max-w-[100px]">
                                     <Image src={watchImagePrice} alt="logo watch" className="p-1"/>
                                 </div>
-                                <div className="">
+                                <div className="max-w-[100px]">
                                     <Image src={paramountImagePrice} alt="logo paramount" className="p-1"/>
                                 </div>
                             </div>
