@@ -4,8 +4,6 @@ import * as React from "react"
 
 import Autoplay from "embla-carousel-autoplay"
 
-import { BsWhatsapp } from "react-icons/bs"
-
 import { type CarouselApi } from "@/components/ui/carousel"
 
 import {
@@ -17,7 +15,7 @@ import {
 } from "@/components/ui/carousel"
 
  
-export function CarouselSectionPrice(){
+export function CarouselStreaming(){
     const data = [
         {
           id: 1, 
@@ -70,7 +68,7 @@ export function CarouselSectionPrice(){
         <CarouselContent className="-ml-1">
           {
               data.map((data) => (
-                  <CarouselItem key={data.id} className="">
+                  <CarouselItem key={data.id} className="md:basis-1/2">
                       <div className="flex aspect-square items-center justify-center">
                           <div className="mt-[20px] mb-[20px] mr-1 p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl">
                           <div className=" w-full justify-items-center items-center border-b">
@@ -79,21 +77,18 @@ export function CarouselSectionPrice(){
                               <p className="mb-2 max-sm:text-[10px] text-(--color-text-grey)">Mais Velocidade, Menos Preço</p>
                           </div>
                           <div className="mt-2 justify-items-center">
-                              <p className="mt-2 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>{data.preco}</strong></p>,99/mês</p>
+                              <p className="mt-5 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[40px] max-sm:text-[20px]"><strong>{data.preco}</strong></p>,99/mês</p>
                           </div>
-                          <button className="w-64 max-sm:w-40 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">Assine Já</button>
-                          <button className="mt-3 w-64 flex flex-row justify-center items-center bg-(--color-button-gren) sm:hover:w-68 text-white px-3 py-2 rounded-3xl"><BsWhatsapp  className="mr-1"/> WhatsApp</button>
+                          <button className="w-64 max-sm:w-40 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 mt-7 rounded-3xl">Assine Já</button>
                         </div> 
                       </div>  
                   </CarouselItem>
                   ))
           }
         </CarouselContent>
-        <CarouselNext />
-        <CarouselPrevious />
       </Carousel>
-      <div className="py-2 text-center text-sm text-muted-foreground">
-        Slide {current} of {count}
+      <div className="py-2 pl-[320px] text-sm text-muted-foreground">
+        <span className="w-[10px]">{current} de {count}</span>
       </div>
     </div>  
   )

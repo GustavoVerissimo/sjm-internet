@@ -31,7 +31,7 @@ export default function TabsStreaming(){
                         <div className="w-[250px] h-[200px] pl-5">
                             <h2 className="mt-5 text-[25px] text-center font-black text-(--color-text-darkblue)">Bem vindo ao Max</h2>
                             <p className="mt-4 text-[17px] text-justify text-(--color-text-grey)">A escolha ideal para desfrutar de séries incríveis, personagens marcantes, estreias do cinema, futebol, realities e documentários.</p>
-                            <button className="w-64 max-sm:w-40 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-10 rounded-3xl">Saiba Mais</button>
+                            <button className="w-64 max-sm:w-40 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-10 rounded-3xl"><a href="/streamings/max">Saiba Mais</a></button>
                         </div>
                         <Image src={BannerMaxStreaming} alt="banner da paramount" className="w-[500px] h-[300px] rounded-r-2xl"/>
                     </div>
