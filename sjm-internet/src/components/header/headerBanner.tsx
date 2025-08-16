@@ -22,7 +22,7 @@ export default function HeaderBanner() {
                   <p className="flex flex-row items-center text-(--color-background-darkblue)"><HiBriefcase className="w-[25px] h-[25px] mr-4 text-(--color-background-darkblue)" /> Para todos os negócios</p>
                 </div>  
               </div>
-            <button className="bg-(--color-button-darkblue) w-64 sm:hover:w-68 text-white px-3 py-2 rounded-3xl ">Confira Nossos Planos</button>
+            <button className="bg-(--color-button-darkblue) w-64 sm:hover:w-68 text-white px-3 py-2 rounded-3xl "><a href="#planos">Confira Nossos Planos</a></button>
           </div>
             <Image src={Banner} alt="imagem que contém os planos de internet da empresa" className="2xl:w-[1000px] 2xl:h-[500px] xl:w-[800px] xl:h-[400px] lg:w-[600px] lg:h-[300px] md:w-[400px] md:h-[300px]  rounded-bl-[30px] " />
         </div>

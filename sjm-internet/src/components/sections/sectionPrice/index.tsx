@@ -10,13 +10,13 @@ export default function Price(){
         <section className="flex flex-col px-3 max-sm:pb-10 items-center justify-center bg-(--color-background-grey)">
             <div className="justify-items-center  mb-[20px]">
                 <div className="flex flex-row max-sm:flex-col max-lg:flex-wrap max-xl:flex-wrap justify-center">
-                    <div className="mt-[20px] md:mr-[30px] p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl">
+                    <div className="mt-[20px] md:mr-[30px] p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl" id="planos">
                         <div className=" w-full justify-items-center items-center border-b">
                             <p className="text-[50px] max-sm:text-[35px] text-(--color-text-darkblue) font-black">100</p>
                             <p className="text-[50px] max-sm:text-[35px] text-(--color-text-darkblue) font-black">MEGA</p>
                             <p className="mb-2 max-sm:text-[10px]">Mais Velocidade, Menos Preço</p>
                         </div>
-                        <div className="max-sm:mt-3 lg:mb-2 ">
+                        <div className="max-sm:mt-3 ">
                             <p className="flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>75</strong></p>,90/mês</p>
                             <p className="text-[10px]">Pagando até o vencimento</p>
                             <p className="flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>65</strong></p>,90/mês</p>

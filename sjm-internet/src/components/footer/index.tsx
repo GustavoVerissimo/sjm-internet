@@ -25,7 +25,7 @@ export default function Footer() {
                         </a>
                     </div>
                 </div>
-                <div className="max-sm:mb-[20px]">
+                <div className="max-sm:mb-[20px]" id="contatos">
                     <h2 className="text-white font-black text-[30px] text-center">Contatos</h2>
                     <div className="max-sm:mt-5">
                         <ul className="text-white font-bold">

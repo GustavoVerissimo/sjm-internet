@@ -1,8 +1,9 @@
 import Image from "next/image"
 import sjmLogo from "../../../public/image/sjmLogo.webp"
-import GooglePlay from "../../../public/svg/google-play.svg"
-import AppleStore from "../../../public/svg/apple-store.svg"
-import { TiThMenu } from "react-icons/ti";
+{/*import GooglePlay from "../../../public/svg/google-play.svg"
+import AppleStore from "../../../public/svg/apple-store.svg"*/}
+import Dropdown from "@/components/header/dropdownHeader/"
+{/*import { TiThMenu } from "react-icons/ti";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,7 +11,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu" */}
 
 export default function Header() {
     return (
@@ -22,16 +23,15 @@ export default function Header() {
           <div className="max-sm:mt-5 max-sm:hidden">
             <ul className="flex flex-row">
               <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/">Início</a></li>
-              <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/">Sobre</a></li>
-              <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/">Planos</a></li>
-              <li className="lg:pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="#contato">Contato</a></li>
+              <li className="pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="/#planos">Planos</a></li>
+              <li className="lg:pr-4 hover:border-b-2 hover:border-white hover:pb-1"><a href="#contatos">Contato</a></li>
             </ul>
           </div>
           <div className="sm:hidden">
-            <DropdownMenu>
-              <DropdownMenuTrigger><TiThMenu className=""/></DropdownMenuTrigger>
-              <DropdownMenuContent className="w-[600px] h-[300px] bg-(--color-background-darkblue) pl-[50px]">
-                <DropdownMenuLabel className="text-[25px] text-white border-b-4 border-w">SJM INTERNET</DropdownMenuLabel>
+            <Dropdown />
+             {/*<DropdownMenu>
+              <DropdownMenuTrigger className=""><TiThMenu className="w-full h-full"/></DropdownMenuTrigger>
+              <DropdownMenuContent className="w-[600px] h-[300px] pt-10 bg-(--color-background-darkblue) pl-[50px]">
                 <DropdownMenuItem className="pl-4 text-white"><a href="/">Início</a></DropdownMenuItem>
                 <DropdownMenuItem className="pl-4 text-white">Planos</DropdownMenuItem>
                 <DropdownMenuItem className="pl-4 text-white"><a href="#contato">Contato</a></DropdownMenuItem>
@@ -47,7 +47,7 @@ export default function Header() {
                     </div>
                 </DropdownMenuItem>
               </DropdownMenuContent>
-            </DropdownMenu>
+            </DropdownMenu> */}
           </div>
         </div>
       </header>
