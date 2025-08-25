@@ -1,5 +1,4 @@
 import './globals.css'
-import { Toaster } from "@/components/ui/sonner"
 
 
 export const metadata = {
@@ -7,7 +6,7 @@ export const metadata = {
   description: 'Sjm Internet a melhor fibra ótica da região',
 }
 
-export default function DisponibilidadeLayout({
+export default function CadastroLayout({
   children,
 }: {
   children: React.ReactNode
@@ -15,7 +14,6 @@ export default function DisponibilidadeLayout({
   return (
     <>  
         <div>{children}</div>
-        <Toaster />
     </>
   )
 }

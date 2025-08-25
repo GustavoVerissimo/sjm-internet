@@ -7,9 +7,8 @@ export default function Dropdown() {
 
   const items = [
     { label: "Início", href: "/" },
-    { label: "Serviços", href: "/servicos" },
-    { label: "Sobre", href: "/sobre" },
-    { label: "Contato", href: "/contato" },
+    { label: "Planos", href: "#planos" },
+    { label: "Contato", href: "#contatos" },
   ];
 
   return (
