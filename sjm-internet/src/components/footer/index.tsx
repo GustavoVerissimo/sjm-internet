@@ -39,10 +39,10 @@ export default function Footer() {
                     <h2 className="text-white font-black text-[30px] text-center">Soluções</h2>
                     <div className="max-sm:mt-5">
                         <ul className="text-white font-bold">
-                            <li className="flex flex-row items-center"><FaHome className="mr-2"/><a href="/">Residencial</a></li>
+                            <li className="flex flex-row items-center"><FaHome className="mr-2"/><a href="/planos">Residencial</a></li>
                             <li className="flex flex-row items-center"><MdHomeWork className="mr-2"/><a href="/">Empresarial</a></li>
-                            <li className="flex flex-row items-center"><MdOutlineWork className="mr-2"/><a href="/">Trabalhe Conosco</a></li>
-                            <li className="flex flex-row items-center"><VscWorkspaceTrusted className="mr-2"/><a href="/">Consultar Disponibilidade</a></li>
+                            <li className="flex flex-row items-center"><MdOutlineWork className="mr-2"/><a href="https://wa.me/552131803223?text=Olá, gostaria de saber se há vagas disponíveis?">Trabalhe Conosco</a></li>
+                            <li className="flex flex-row items-center"><VscWorkspaceTrusted className="mr-2"/><a href="/cadastro">Consultar Disponibilidade</a></li>
                         </ul>
                     </div>
                 </div>

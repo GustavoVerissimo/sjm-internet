@@ -23,7 +23,7 @@ export default function Dropdown() {
 
       {/* Lista de opções */}
       {open && (
-        <div className="absolute right-0 mt-4 w-85 bg-(--color-background-darkblue) shadow-lg">
+        <div className="absolute right-0 w-90 mt-4 bg-(--color-background-darkblue) shadow-lg">
           <div className="py-1">
             {items.map((item) => (
               <a

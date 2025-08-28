@@ -79,7 +79,7 @@ export function CarouselStreaming(){
                           <div className="mt-2 justify-items-center">
                               <p className="mt-5 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[40px] max-sm:text-[20px]"><strong>{data.preco}</strong></p>,99/mês</p>
                           </div>
-                          <button className="w-64 max-sm:w-40 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 mt-7 rounded-3xl">Assine Já</button>
+                          <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-7 rounded-3xl">Assine Já</button>
                         </div> 
                       </div>  
                   </CarouselItem>
@@ -87,7 +87,7 @@ export function CarouselStreaming(){
           }
         </CarouselContent>
       </Carousel>
-      <div className="py-2 pl-[320px] text-sm text-muted-foreground">
+      <div className="py-2 pl-[150px] md:pl-[320px] text-sm text-muted-foreground">
         <span className="w-[10px]">{current} de {count}</span>
       </div>
     </div>  

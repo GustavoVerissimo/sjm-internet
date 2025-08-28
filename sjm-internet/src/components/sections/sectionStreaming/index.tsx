@@ -16,7 +16,7 @@ export default function Streaming() {
                     <p className="mt-[10px] text-[20px] max-sm:text-[17px] max-sm:ml-2 text-left text-white"> Disponiveis nos planos:</p>
                     <p className="text-[20px] font-black max-sm:text-[17px] text-left max-sm:pl-2 text-white">450, 650 e 800 MEGA</p>
                     <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-darkblue) px-3 py-2 rounded-3xl"><a href="/streamings">Saiba Mais</a></button>
-                    <button className="mt-3 w-64 flex flex-row justify-center items-center bg-(--color-button-gren) sm:hover:w-68 text-white px-3 py-2 rounded-3xl"><BsWhatsapp  className="mr-1"/> WhatsApp</button>
+                    <button className="mt-3 w-64 flex flex-row justify-center items-center bg-(--color-button-gren) sm:hover:w-68 text-white px-3 py-2 rounded-3xl"><BsWhatsapp  className="mr-1"/> <a href="https://wa.me/552131803223?text=Olá, gostaria de saber mais informações sobre os planos de fibra + streaming!">WhatsApp</a></button>
                 </div>
             </div> 
         </section>

@@ -21,7 +21,7 @@ export default function TabsStreaming(){
                         <div className="w-[250px] h-[300px] md:pl-5 justify-items-center">
                             <h2 className="mt-5 text-[25px] text-center font-black text-(--color-text-darkblue)">Bem vindo ao Paramount +</h2>
                             <p className="mt-2 text-[17px] text-justify text-(--color-text-grey)">A escolha ideal para desfrutar de séries incríveis, personagens marcantes, estreias do cinema, futebol, realities e documentários.</p>
-                            <button className="w-64 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-3 rounded-3xl">Saiba Mais</button>
+                            <button className="w-64 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-3 rounded-3xl"><a href="/streamings/paramount">Saiba Mais</a></button>
                         </div>
                         <Image src={BannerParamountStreaming} alt="banner da paramount" className="w-[350px] md:w-[500px] h-[200px] md:h-[300px] rounded-r-2xl"/>
                     </div>
@@ -41,7 +41,7 @@ export default function TabsStreaming(){
                         <div className="w-[250px] h-[300px] md:pl-5 justify-items-center">
                             <h2 className="mt-5 text-[25px] text-center font-black text-(--color-text-darkblue)">Bem vindo ao Telecine</h2>
                             <p className="mt-2 text-[17px] text-justify text-(--color-text-grey)">A escolha ideal para desfrutar de séries incríveis, personagens marcantes, estreias do cinema, futebol, realities e documentários.</p>
-                            <button className="w-64 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-3 rounded-3xl">Saiba Mais</button>
+                            <button className="w-64 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-3 rounded-3xl"><a href="/streamings/telecine">Saiba Mais</a></button>
                         </div>
                         <Image src={BannerTelecineStreaming} alt="banner da telecine" className="w-[350px] md:w-[500px] h-[200px] md:h-[300px] rounded-r-2xl"/>
                     </div>
