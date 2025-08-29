@@ -1,5 +1,3 @@
-import paramountImagePrice from "../../../../public/image/paramount-logo.png"
-import watchImagePrice from "../../../../public/image/watch-section-price.webp"
 import Image from "next/image"
 
 
@@ -32,10 +30,10 @@ export default function Price(){
                         <div className="mt-2 justify-items-center">
                             <div className="flex flex-row items-center justify-around">
                                 <div className="mr-1 max-w-[100px]">
-                                    <Image src={watchImagePrice} alt="logo watch" className="p-1"/>
+                                    <Image src="/image/watch-section-price.webp" width={100} height={0} alt="logo watch" className="p-1"/>
                                 </div>
                                 <div className="max-w-[100px]">
-                                    <Image src={paramountImagePrice} alt="logo paramount" className="p-1"/>
+                                    <Image src="/image/paramount-logo.png" width={100} height={0} alt="logo paramount" className="p-1"/>
                                 </div>
                             </div>
                             <p className="mt-2 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>104</strong></p>,99/mês</p>
@@ -51,10 +49,10 @@ export default function Price(){
                         <div className="mt-2 justify-items-center">
                             <div className="flex flex-row items-center justify-around">
                                 <div className="mr-1 max-w-[100px]">
-                                    <Image src={watchImagePrice} alt="logo watch" className="p-1"/>
+                                    <Image src="/image/watch-section-price.webp" width={100} height={0} alt="logo watch" className="p-1"/>
                                 </div>
                                 <div className=" max-w-[100px]">
-                                    <Image src={paramountImagePrice} alt="logo paramount" className="p-1"/>
+                                    <Image src="/image/paramount-logo.png" width={100} height={0} alt="logo paramount" className="p-1"/>
                                 </div>
                             </div>
                             <p className="mt-2 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>119</strong></p>,99/mês</p>
@@ -70,10 +68,10 @@ export default function Price(){
                         <div className="mt-2 justify-items-center">
                             <div className="flex flex-row items-center justify-around">
                                 <div className="mr-1 max-w-[100px]">
-                                    <Image src={watchImagePrice} alt="logo watch" className="p-1"/>
+                                    <Image src="/image/watch-section-price.webp" width={100} height={0} alt="logo watch" className="p-1"/>
                                 </div>
                                 <div className="max-w-[100px]">
-                                    <Image src={paramountImagePrice} alt="logo paramount" className="p-1"/>
+                                    <Image src="/image/paramount-logo.png" width={100} height={0} alt="logo paramount" className="p-1"/>
                                 </div>
                             </div>
                             <p className="mt-2 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>129</strong></p>,99/mês</p>

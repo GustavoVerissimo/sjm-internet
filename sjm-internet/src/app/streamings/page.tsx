@@ -1,7 +1,6 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import TabsStreaming from "@/components/table"
-import ImagemWatch from "../../../public/image/watch-tecnologia-2.webp"
 import Image from "next/image"
 import SectionQuestions from "@/components/sections/sectionQuestions"
 
@@ -14,7 +13,7 @@ export default function Streamings(){
                     <h1 className="py-[25px] font-black text-[50px] text-center text-(--color-text-darkblue)">Fibra + <span className="text-(--color-text-orange)">Watch Streaming</span></h1>
                     <section className="flex flex-col md:flex-row py-[30px] items-center">
                         <div className="">
-                            <Image src={ImagemWatch} alt="imagem da Watch dispositivos" className="w-[600px] h-[400px]" />
+                            <Image src="/image/watch-tecnologia-2.webp" width={600} height={400} alt="imagem da Watch dispositivos" className="w-[600px] h-[400px]" />
                         </div>
                         <div className="w-[500px] max-sm:w-[330px] h-[300px] max-sm:mt-4 ">
                             <p className="text-[20px] max-sm:text-[17px] text-(--color-text-grey) text-justify">Com o <span className="font-black text-(--color-text-orange)">streaming by Watch</span>, além dos conteúdos exclusivos da Paramount+, você assiste canais ao vivo como Paramount, MTV, MTV Live, Nick Jr, Nickelodeon e Comedy Central, além de conteúdos gravados da Sony Channel, CNN Brasil, Universal e Xpeed by XP Investimentos.</p>

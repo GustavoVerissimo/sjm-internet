@@ -11,7 +11,7 @@ export default function SectionMaps() {
                     <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-darkblue) px-3 py-2 rounded-3xl"><a href="/cadastro">Consultar</a></button>
                 </div>
                 <div className="md:ml-2 max-sm:w-full md:pl-2 h-full">
-                    <Image src={ImagemMapa} alt="imagem com a localização da empresa" className="md:rounded-3xl max-sm:rounded-bl-3xl w-[370px] h-full max-sm:w-full max-sm:h-[250px] "/>
+                    <Image src="/image/imagem-section-mapa.jpg" width={370} height={250} alt="imagem com a localização da empresa" className="md:rounded-3xl max-sm:rounded-bl-3xl w-[370px] h-full max-sm:w-full max-sm:h-[250px] "/>
                 </div>
             </div>
         </section>

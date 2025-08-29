@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Banner from "../../../public/image/banner.jpg"
 
 import { HiBriefcase } from "react-icons/hi";
 import { HiChartBar } from "react-icons/hi";
@@ -24,7 +23,7 @@ export default function HeaderBanner() {
               </div>
             <button className="bg-(--color-button-darkblue) w-64 sm:hover:w-68 text-white px-3 py-2 rounded-3xl "><a href="#planos">Confira Nossos Planos</a></button>
           </div>
-            <Image src={Banner} alt="imagem que contém os planos de internet da empresa" className="2xl:w-[1000px] 2xl:h-[500px] xl:w-[800px] xl:h-[400px] lg:w-[600px] lg:h-[300px] md:w-[400px] md:h-[300px]  rounded-bl-[30px] " />
+            <Image src="/image/banner.jpg" width={2000} height={1500} alt="imagem que contém os planos de internet da empresa" className="2xl:w-[1000px] 2xl:h-[500px] xl:w-[800px] xl:h-[400px] lg:w-[600px] lg:h-[300px] md:w-[400px] md:h-[300px]  rounded-bl-[30px] " />
         </div>
     )
 }
