@@ -1,7 +1,5 @@
-import WatchBanner from "../../../../public/image/watch-banner-png.png"
 import Image from "next/image"
 import { BsWhatsapp } from "react-icons/bs"
-import TabsStreaming from "@/components/table"
 
 
 export default function Streaming() {
@@ -9,7 +7,7 @@ export default function Streaming() {
         <section className="flex flex-col items-center justify-center bg-(--color-background-darkblue)">
             <div className="flex flex-col md:flex-row items-center">
                 <div className="w-[500px] max-sm:w-[350px] h-full">
-                    <Image src={WatchBanner} alt="imagem sobre a logo do watch" />
+                    <Image src="/image/watch-banner-png.png" width={500} height={0} alt="imagem sobre a logo do watch" />
                 </div>
                 <div className="w-[500px] max-sm:w-[330px] h-[300px] max-sm:h-[350px] mb-[60px]">
                     <p className="text-[20px] max-sm:text-[17px] text-white">Com o <span className="font-black text-(--color-text-orange)">streaming by Watch</span>, além dos conteúdos exclusivos da Paramount+, você assiste canais ao vivo como Paramount, MTV, MTV Live, Nick Jr, Nickelodeon e Comedy Central, além de conteúdos gravados da Sony Channel, CNN Brasil, Universal e Xpeed by XP Investimentos.</p>

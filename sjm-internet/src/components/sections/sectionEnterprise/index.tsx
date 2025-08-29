@@ -1,6 +1,5 @@
 import Image from "next/image"
 import ImagemEmpresaUm from "../../../../public/image/empresas-1.jpg"
-import ImagemEmpresaDois from "../../../../public/image/empresas-2.jpg"
 
 import { HiBriefcase } from "react-icons/hi";
 import { HiChartBar } from "react-icons/hi";
@@ -27,7 +26,7 @@ export default function SectionEnterprise() {
                         </div>
                     </div>
                     <div className="w-[500px] max-sm:w-full h-[350px] max-sm:h-[300px] rounded-[100px]">
-                        <Image src={ImagemEmpresaUm} alt="imagem de empresa adquirido no site unsplash"  className=" lg:rounded-3xl max-sm:rounded-bl-2xl h-full" />
+                        <Image src="/image/empresas-1.jpg" width={500} height={350} alt="imagem de empresa adquirido no site unsplash"  className=" lg:rounded-3xl max-sm:rounded-bl-2xl h-full" />
                     </div>
                 </div>
         </section>
