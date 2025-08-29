@@ -1,5 +1,5 @@
 import Image from "next/image"
-import sjmLogo from "../../../public/image/sjmLogo.webp"
+import sjmLogo from "../../../public/image/sjm-logo.png"
 import Dropdown from "@/components/header/dropdownHeader/"
 
 export default function Header() {
@@ -7,7 +7,7 @@ export default function Header() {
       <header id="Inicio" className="min-w-[320px]  h-[auto]">
         <div className="flex flex-row items-center max-sm:justify-between sm:justify-around py-[15px] px-[20px] text-white bg-(--color-background-darkblue)">
           <div>
-            <Image src="/image/sjmLogo.webp" alt="Imagem que contém a logo da empresa SJM INTERNET" width={70} height={73} />
+            <Image src="/image/sjmLogo.png" alt="Imagem que contém a logo da empresa SJM INTERNET" width={70} height={73} />
           </div>
           <div className="max-sm:mt-5 max-sm:hidden">
             <ul className="flex flex-row">
