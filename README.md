@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 SJM Internet
 
-## Getting Started
+Este repositório contém o código-fonte do **site institucional da SJM Internet**, uma empresa provedora de serviços de internet.  
+O site foi desenvolvido utilizando **Next.js**, hospedado na **Vercel**, e tem como objetivo apresentar os serviços oferecidos, disponibilizar formulários de contato e cadastro, além de informações sobre planos de streaming.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🚀 Tecnologias Utilizadas
+- [Next.js](https://nextjs.org/) — Framework React para aplicações modernas
+- [React](https://react.dev/) — Biblioteca para construção de interfaces
+- [Vercel](https://vercel.com/) — Plataforma de deploy e hospedagem
+- [Node.js](https://nodejs.org/) — Ambiente de execução para o backend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📌 Funcionalidades
+- Página inicial com informações da empresa  
+- Formulário de **cadastro** e **contato**  
+- Listagem de planos de **streaming** disponíveis  
+- Rotas dinâmicas e páginas estáticas otimizadas  
+- Hospedagem rápida e segura via **Vercel**  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📂 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+- /public -> arquivos estáticos (ex.: logo, imagens)
+- /src -> componentes, estilos e páginas
+- /pages -> rotas principais do site
+- /package.json -> dependências e scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔧 Scripts Disponíveis
+No diretório do projeto, você pode rodar:
 
-## Deploy on Vercel
+- `npm run dev` → inicia o projeto em ambiente de desenvolvimento  
+- `npm run build` → cria uma build de produção  
+- `npm start` → roda a build de produção localmente  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🌍 Deploy
+O site está hospedado na **Vercel**:  
+👉 [https://sjm-internet.vercel.app](https://sjm-internet.vercel.app)
+
+---
+
+## 👨‍💻 Autor
+Projeto desenvolvido por **Gustavo Veríssimo**.
