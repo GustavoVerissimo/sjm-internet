@@ -15,7 +15,7 @@ export default function Questions() {
                 <div className="max-sm:mb-[25px] flex flex-col w-[500px] max-sm:w-[320px]">
                     <h2 className="text-(--color-text-darkblue) max-sm:text-center text-left text-[40px] max-sm:text-[30px] font-black">Tire suas duvidas</h2>
                     <p className=" text-(--color-text-grey) max-sm:text-left text-[23px] max-sm:text-[18px]">Confira nossas perguntas mais frequentes e tire suas dúvidas.</p>
-                    <button className=" max-sm:hidden mt-2 w-64 max-sm:w-40 bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">Assine Já</button>
+                    <button className=" max-sm:hidden mt-2 w-64 max-sm:w-40 bg-(--color-button-darkblue) sm:hover:bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
                 </div>
                 <div className=" w-[650px] max-sm:w-[320px] items-center justify-center">
                     <Card>

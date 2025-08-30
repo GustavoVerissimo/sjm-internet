@@ -79,7 +79,7 @@ export function CarouselStreaming(){
                           <div className="mt-2 justify-items-center">
                               <p className="mt-5 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[40px] max-sm:text-[20px]"><strong>{data.preco}</strong></p>,99/mês</p>
                           </div>
-                          <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 mt-7 rounded-3xl">Assine Já</button>
+                          <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-blue) text-white px-3 py-2 mt-7 rounded-3xl"><a href="https://wa.me/552131803223?text=Olá, gostaria de assinar o plano fibra + streaming!">Assine Já</a></button>
                         </div> 
                       </div>  
                   </CarouselItem>

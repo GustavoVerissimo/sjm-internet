@@ -8,7 +8,7 @@ export default function SectionMaps() {
                 <div className="flex flex-col md:items-start items-center w-[450px] max-sm:w-[300px] my-[20px] md:pr-2 md:ml-5 text-white">
                     <h2 className="mb-2 text-[32px] max-sm:text-[30px] font-black">Consulte Disponibilidade</h2>
                     <p className="mb-5 text-[20px] max-sm:text-[18px] text-left">Quer saber se atuamos na sua região? clique no botão abaixo e consulte a disponibilidade do seu endereço</p>
-                    <button className="mt-3 w-64 bg-white sm:hover:w-68 text-(--color-text-darkblue) px-3 py-2 rounded-3xl"><a href="/cadastro">Consultar</a></button>
+                    <button className="mt-3 w-64 bg-white sm:hover:bg-(--color-button-blue) text-(--color-text-darkblue) px-3 py-2 rounded-3xl"><a href="/cadastro">Consultar</a></button>
                 </div>
                 <div className="md:ml-2 max-sm:w-full md:pl-2 h-full">
                     <Image src="/image/imagem-section-mapa.jpg" width={370} height={250} alt="imagem com a localização da empresa" className="md:rounded-3xl max-sm:rounded-bl-3xl w-[370px] h-full max-sm:w-full max-sm:h-[250px] "/>

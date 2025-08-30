@@ -22,7 +22,7 @@ export default function SectionEnterprise() {
                             <p className="flex flex-row mb-3 items-center text-(--color-background-darkblue)"><HiBriefcase className="w-[25px] h-[25px] mr-4 text-(--color-background-darkblue)" /> Para todos os negócios</p>
                         </div>
                         <div className="flex flex-col items-center py-2">
-                            <button className="w-64 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) sm:hover:w-68 text-white px-3 py-2 rounded-3xl">Saiba Mais</button>
+                            <button className="w-64 bg-(--color-button-darkblue) hover:bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl"><a href="https://wa.me/552131803223?text=Olá, gostaria de saber mais informações sobre o plano empresarial!">Assine Já</a></button>
                         </div>
                     </div>
                     <div className="w-[500px] max-sm:w-full h-[350px] max-sm:h-[300px] rounded-[100px]">

@@ -19,7 +19,7 @@ export default function Price(){
                             <p className="text-[10px]">Pagando até o vencimento</p>
                             <p className="flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>65</strong></p>,90/mês</p>
                         </div>
-                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
+                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
                     </div>
                     <div className="mt-[20px] md:mr-[30px] p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl">
                         <div className=" w-full justify-items-center items-center border-b">
@@ -38,7 +38,7 @@ export default function Price(){
                             </div>
                             <p className="mt-2 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>104</strong></p>,99/mês</p>
                         </div>
-                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
+                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
                     </div>
                     <div className="mt-[20px] md:mr-[30px] p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl">
                         <div className=" w-full justify-items-center items-center border-b">
@@ -57,7 +57,7 @@ export default function Price(){
                             </div>
                             <p className="mt-2 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>119</strong></p>,99/mês</p>
                         </div>
-                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
+                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
                     </div>
                     <div className="mt-[20px] mr-1 p-5 sm:mx-1 bg-white w-[350px] h-[390px] lg:w-[290px] lg:h-[370px] max-sm:w-[250px] max-sm:h-[300px] rounded-xl justify-items-center shadow-2xl">
                         <div className=" w-full justify-items-center items-center border-b">
@@ -76,7 +76,7 @@ export default function Price(){
                             </div>
                             <p className="mt-2 mb-1 flex flex-row text-(--color-text-grey)">R$<p className="text-[30px] max-sm:text-[20px]"><strong>129</strong></p>,99/mês</p>
                         </div>
-                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-darkblue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
+                        <button className="w-64 max-sm:w-52 bg-(--color-button-darkblue) hover:bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
                     </div>      
                 </div>
             </div>       
