@@ -12,7 +12,7 @@ export default function Footer() {
         <footer className="flex flex-col bg-(--color-background-darkblue) justify-center items-center ">
             <div className="w-full h-[full] py-[40px] px-[80px] flex flex-row max-sm:flex-col items-center justify-around">
                 <div className="flex flex-col max-sm:mb-[25px] lg:mr-[100px] items-center">
-                    <Image src="/image/sjm-Logo.png" alt="Imagem que contém a logo da empresa SJM INTERNET" width={150} height={73} />
+                    <Image src="/image/sjm-logo.png" alt="Imagem que contém a logo da empresa SJM INTERNET" width={150} height={73} />
                     <div className="mt-[30px] flex flex-row max-sm:flex-col w-[300px] max-sm:items-center">
                         <a href="https://play.google.com/store/apps/details?id=br.net.tsmx.meuappprovedor" className="md:mr-2 max-sm:mb-2">
                             <Image src="/svg/google-play.svg" width={180} height={40} alt="logo playstore" className="w-[180px] h-[40px]" />
