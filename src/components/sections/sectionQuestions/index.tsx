@@ -17,7 +17,7 @@ export default function Questions() {
                     <p className=" text-(--color-text-grey) max-sm:text-left text-[23px] max-sm:text-[18px]">Confira nossas perguntas mais frequentes e tire suas dúvidas.</p>
                     <button className=" max-sm:hidden mt-2 w-64 max-sm:w-40 bg-(--color-button-darkblue) sm:hover:bg-(--color-button-blue) text-white px-3 py-2 rounded-3xl"><a href="/cadastro">Assine Já</a></button>
                 </div>
-                <div className=" w-[650px] max-sm:w-[400px] items-center justify-center">
+                <div className=" w-[650px] max-sm:w-[380px] items-center justify-center">
                     <Card>
                         <CardContent>
                             <Accordion type="single" collapsible className="w-full">
